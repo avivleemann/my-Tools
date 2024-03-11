@@ -16,7 +16,15 @@ pip install my_Tools
 Fill me in please! Don’t forget code examples:
 
 ``` python
-1+1
+from .my_Tools import workDir
+wd = workDir()
 ```
 
-    2
+    ImportError: cannot import name 'workDir' from 'my_Tools' (/home/avivl/projects/my-Tools/my_Tools/__init__.py)
+
+``` python
+from .my_Tools import MyLogger
+logger = MyLogger()
+```
+
+    ImportError: cannot import name 'MyLogger' from 'my_Tools' (/home/avivl/projects/my-Tools/my_Tools/__init__.py)

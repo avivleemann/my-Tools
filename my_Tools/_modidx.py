@@ -5,4 +5,7 @@ d = { 'settings': { 'branch': 'main',
                 'doc_host': 'https://avivleemann.github.io',
                 'git_url': 'https://github.com/avivleemann/my-Tools',
                 'lib_path': 'my_Tools'},
-  'syms': {'my_Tools.core': {'my_Tools.core.foo': ('core.html#foo', 'my_Tools/core.py')}}}
+  'syms': { 'my_Tools.core': { 'my_Tools.core.MyLogger': ('my_tools.html#mylogger', 'my_Tools/core.py'),
+                               'my_Tools.core.MyLogger.__post_init__': ('my_tools.html#mylogger.__post_init__', 'my_Tools/core.py'),
+                               'my_Tools.core.MyLogger.get': ('my_tools.html#mylogger.get', 'my_Tools/core.py'),
+                               'my_Tools.core.workDir': ('my_tools.html#workdir', 'my_Tools/core.py')}}}
