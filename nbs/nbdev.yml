@@ -1,0 +1,9 @@
+project:
+  output-dir: _docs
+
+website:
+  title: "my-Tools"
+  site-url: "https://avivleemann.github.io/my-Tools"
+  description: "my tools cllasses and function to use"
+  repo-branch: main
+  repo-url: "https://github.com/avivleemann/my-Tools"
