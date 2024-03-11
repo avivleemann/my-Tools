@@ -1,0 +1,42 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "my-Tools",
+    "section": "",
+    "text": "This file will become your README and also the index of your documentation.",
+    "crumbs": [
+      "my-Tools"
+    ]
+  },
+  {
+    "objectID": "index.html#install",
+    "href": "index.html#install",
+    "title": "my-Tools",
+    "section": "Install",
+    "text": "Install\npip install my_Tools",
+    "crumbs": [
+      "my-Tools"
+    ]
+  },
+  {
+    "objectID": "index.html#how-to-use",
+    "href": "index.html#how-to-use",
+    "title": "my-Tools",
+    "section": "How to use",
+    "text": "How to use\nFill me in please! Don’t forget code examples:\n\nfrom .my_Tools import workDir\nwd = workDir()\n\nImportError: cannot import name 'workDir' from 'my_Tools' (/home/avivl/projects/my-Tools/my_Tools/__init__.py)\n\n\n\nfrom .my_Tools import MyLogger\nlogger = MyLogger()\n\nImportError: cannot import name 'MyLogger' from 'my_Tools' (/home/avivl/projects/my-Tools/my_Tools/__init__.py)",
+    "crumbs": [
+      "my-Tools"
+    ]
+  },
+  {
+    "objectID": "my_tools.html",
+    "href": "my_tools.html",
+    "title": "My Tools",
+    "section": "",
+    "text": "source\n\nMyLogger\n\n MyLogger (name:str, log_file:str)\n\n\nsource\n\n\nworkDir\n\n workDir (dir:pathlib.Path=Path('/home/runner/work/my-Tools/my-Tools'),\n          figures:pathlib.Path=Path('/home/runner/work/my-Tools/my-\n          Tools/figures'), data:pathlib.Path=Path('/home/runner/work/my-\n          Tools/my-Tools/data'),\n          results:pathlib.Path=Path('/home/runner/work/my-Tools/my-\n          Tools/results'), logs:pathlib.Path=Path('/home/runner/work/my-\n          Tools/my-Tools/logs'))",
+    "crumbs": [
+      "My Tools"
+    ]
+  }
+]
